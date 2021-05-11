@@ -1,0 +1,90 @@
+.ContactMeContainer {
+	min-height: 100vh;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.ContactMeTitle {
+	color: #c1cbe9;
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.ContactMeForm {
+	width: 40%;
+	max-height: 75vh;
+	border: 1px solid transparent;
+	background-color: rgb(23, 42, 70);
+	border-radius: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.ContactMeForm > textarea {
+	max-width: 70%;
+}
+
+.ContactMeForm > .ContactMeFormFeild {
+	background-color: rgb(32, 55, 88);
+	width: 70%;
+	padding: 0.8rem 0.6rem;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	margin: 10px auto;
+}
+.ContactMeFormFeild:focus {
+	outline: none;
+	background-color: rgb(32, 55, 88);
+	color: #c1cbe9;
+}
+.ContactMeFormFeild:hover {
+	box-shadow: rgba(90, 80, 219, 0.1) 0px 5px 15px;
+	transform: scale(1.05, 1.1);
+	transition: all 0.3s ease-in-out;
+}
+.ContactMeFormFeild::placeholder {
+	color: #c1cbe9;
+}
+
+.ContactMeButton {
+	width: 30%;
+	margin: 0.2rem auto 1.5rem auto;
+	padding: 0.6rem;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	background-color: #c1cbe9;
+	letter-spacing: 0.1rem;
+	font-size: 18px;
+}
+
+.ContactMeButton:hover {
+	background-color: rgb(43, 73, 114);
+	color: #c1cbe9;
+	transform: scale(1.2, 1.05);
+	transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1130px) {
+	.ContactMeForm {
+		width: 60%;
+	}
+}
+
+@media (max-width: 720px) {
+	.ContactMeForm {
+		width: 90%;
+	}
+	.ContactMeForm > textarea {
+		max-width: 85%;
+	}
+
+	.ContactMeForm > .ContactMeFormFeild {
+		width: 85%;
+	}
+}

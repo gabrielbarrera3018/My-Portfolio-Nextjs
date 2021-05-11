@@ -1,0 +1,42 @@
+.ProjectContainer {
+	width: 280px;
+	height: 320px;
+	background-color: rgb(23, 42, 70);
+	color: #c1cbe9;
+	justify-self: center;
+	scale: 2;
+	position: relative;
+}
+
+.ProjectImage {
+	width: 280px;
+	height: 280px;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(23, 42, 70, 0.9);
+	overflow: hidden;
+	width: 280px;
+	height: 0;
+	transition: 0.5s ease;
+	display: none;
+}
+
+.ProjectContainer:hover .overlay {
+	display: block;
+	height: 100%;
+}
+
+.link {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
