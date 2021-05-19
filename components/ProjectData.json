@@ -1,5 +1,10 @@
 [
 	{
+		"link": "https://github.com/Parth-2000/Weather-Dashboard-React",
+		"projectName": "Weather Dashboard(React)",
+		"imgSrc": "/WeatherDashboard.png"
+	},
+	{
 		"link": "https://share--stories.herokuapp.com/",
 		"projectName": "ShareStories(MERN)",
 		"imgSrc": "/ShareStories.png"
@@ -20,7 +25,7 @@
 		"imgSrc": "/MyTodoWebsite.png"
 	},
 	{
-		"link": "https://crudapplicationusingflask.herokuapp.com/",
+		"link": "https://github.com/Parth-2000/FlaskCRUD",
 		"projectName": "CRUD (FLASK)",
 		"imgSrc": "/FlaskCrudApp.png"
 	}
