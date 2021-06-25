@@ -40,6 +40,7 @@
 	grid-template-columns: auto auto auto;
 	grid-row-gap: 3rem;
 	overflow: hidden;
+	margin-bottom: 4rem;
 }
 
 @media (max-width: 1265px) {

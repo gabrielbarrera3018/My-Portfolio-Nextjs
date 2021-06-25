@@ -33,7 +33,7 @@
 
 .AboutMeInfo {
 	flex: 0.6;
-	margin-bottom: 2rem;
+	margin: -5rem 0 2rem 0;
 }
 
 .AboutMeHeading {
@@ -76,7 +76,7 @@
 		align-items: center;
 		flex: 1;
 		width: 100%;
-		margin-top: 5rem;
+		/* margin-top: 5rem; */
 		padding-top: 6rem;
 	}
 	.profilePicImg {
@@ -89,8 +89,8 @@
 
 	.AboutMeHeading {
 		position: absolute;
-		margin-top: 3rem;
-		width: 100%;
+		margin-top: 1rem;
+		width: 70%;
 		top: 103vh;
 		text-align: center;
 	}
@@ -100,17 +100,26 @@
 		width: 80px;
 		margin: 0.5rem auto;
 	}
+
 	.AboutMeInfo {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: start;
 		width: 70%;
+		text-align: justify;
+	}
+	.AboutMeTitle {
+		text-align: center;
+		width: 100%;
 	}
 }
 
 @media (max-width: 720px) {
+	.AboutMeProfilePic {
+		padding-top: 3rem;
+	}
 	.profilePicImg {
 		width: 14rem;
 		height: 14rem;
@@ -119,13 +128,16 @@
 	.AboutMeInfo {
 		width: 80%;
 	}
+	.AboutMeHeading {
+		width: 80%;
+	}
 
 	.AboutMeTitle {
-		font-size: 20px;
+		font-size: 15px;
+		margin-top: -2.5rem;
 	}
 
 	.AboutMeDescription {
-		font-size: 16px;
-		text-align: justify;
+		font-size: 15px;
 	}
 }
