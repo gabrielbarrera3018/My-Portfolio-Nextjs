@@ -1,6 +1,6 @@
 .Footer {
 	display: flex;
-	height: 25vh;
+	height: 30vh;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +19,7 @@
 
 .FooterMiddle {
 	padding: 2rem;
-	width: 40vw;
+	width: 45vw;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -35,9 +35,10 @@
 @media (max-width: 760px) {
 	.FooterTop {
 		font-size: 14px;
+		width: 80%;
 	}
 
 	.FooterMiddle {
-		width: 70vw;
+		width: 100vw;
 	}
 }

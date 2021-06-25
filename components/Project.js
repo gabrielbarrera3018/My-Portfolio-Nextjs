@@ -4,24 +4,16 @@ import styles from "../styles/Project.module.css";
 
 function Project({ link, imgSrc, projectName }) {
 	return (
-		<motion.div
+		<motion.a
+			href={link}
+			target="_blank"
 			className={styles.ProjectContainer}
+			transition={{ duration: 0.5, delay: 0.1 }}
 			whileHover={{ scale: 1.05, height: "100%" }}
-			whileTap={{ scale: 1 }}>
-			<div className={styles.overlay}>
-				<div className={styles.link}>
-					<a href={link}>
-						<img
-							src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png"
-							style={{ width: "50px", height: "50px" }}
-							alt="link-icon"
-						/>
-					</a>
-				</div>
-			</div>
+			whileTap={{ scale: 0.95 }}>
 			<img className={styles.ProjectImage} src={imgSrc} alt={imgSrc} />
 			<h3>{projectName}</h3>
-		</motion.div>
+		</motion.a>
 	);
 }
 

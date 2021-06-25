@@ -15,6 +15,11 @@
 		"imgSrc": "/Covid19Flutter.PNG"
 	},
 	{
+		"link": "https://chatapp-socketio.netlify.app/",
+		"projectName": "ChatApp(Socket.io)",
+		"imgSrc": "/ChatAppSocketIO.png"
+	},
+	{
 		"link": "https://parth-2000.github.io/WebTemplateMaterializeCss/",
 		"projectName": "WebTemplateMaterializeCss",
 		"imgSrc": "/WebTemplateUsingMaterialiseCss.png"
@@ -23,10 +28,5 @@
 		"link": "https://my-todo-website.herokuapp.com/",
 		"projectName": "MyTodoWebsite(Node)",
 		"imgSrc": "/MyTodoWebsite.png"
-	},
-	{
-		"link": "https://github.com/Parth-2000/FlaskCRUD",
-		"projectName": "CRUD (FLASK)",
-		"imgSrc": "/FlaskCrudApp.png"
 	}
 ]
