@@ -22,7 +22,7 @@ function ContactMe() {
 	const handleSubmit = e => {
 		e.preventDefault();
 
-		fetch("http://localhost:3000/api/sendemail", {
+		fetch("https://patelparth.herokuapp.com/api/sendemail", {
 			method: "POST",
 			body: JSON.stringify(templateParams),
 		})
