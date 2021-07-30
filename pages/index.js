@@ -7,6 +7,7 @@ import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import ContactMe from "../components/ContactMe";
 import Footer from "../components/Footer";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
 	useEffect(() => {
@@ -14,6 +15,17 @@ export default function Home() {
 	}, []);
 	return (
 		<div>
+			<ToastContainer
+				position="top-center"
+				autoClose={5000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+			/>
 			<Head>
 				<title>Patel Parth</title>
 				<link rel="icon" href="/favicon.ico" />
