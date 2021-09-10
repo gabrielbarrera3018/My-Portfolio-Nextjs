@@ -29,6 +29,31 @@
 	color: white;
 	font-size: 2.5rem;
 }
+
+.download {
+	margin-top: 1rem;
+}
+
+.downloadBtn {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.3rem 0.8rem;
+	background-color: rgb(23, 42, 70);
+	color: #c1cbe9;
+}
+
+.downloadBtn span {
+	font-size: 1rem;
+	letter-spacing: 0.2px;
+}
+
+.downloadBtn:hover {
+	background-color: rgb(23, 42, 70);
+	opacity: 0.8;
+}
+
 /* .icon:hover {
 	transform: scale(1.5, 1.5);
 	transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);

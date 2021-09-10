@@ -64,6 +64,29 @@ function Intro() {
 						aria-hidden="true"></i>
 				</motion.a>
 			</motion.div>
+
+			<motion.div
+				animate={{ opacity: 1 }}
+				className={styles.download}
+				data-aos="fade-up"
+				data-aos-easing="linear"
+				data-aos-duration="1500">
+				<a href="./Resume.pdf" download>
+					<button
+						style={{
+							borderRadius: "10px",
+							borderColor: "transparent",
+							background: "rgb(23, 42, 70)",
+						}}>
+						<div className={styles.downloadBtn}>
+							<img
+								className={styles.downloadLogo}
+								src="https://img.icons8.com/pastel-glyph/32/c1cbe9/download--v2.png"></img>
+							<span>Resume</span>
+						</div>
+					</button>
+				</a>
+			</motion.div>
 		</div>
 	);
 }
